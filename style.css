@@ -142,7 +142,7 @@
         }
 
         .hero-video-desktop{
-            background-image: url(BG/mobile_bg.png);
+            background-image: url(BG/mobile_bg1.png);
         }
        
     }
@@ -189,7 +189,7 @@
 /* md */
 @media (max-width: 768px) {
     .hero-video-desktop{
-    background-image: url(BG/mobile_bg.png);
+    background-image: url(BG/mobile_bg1.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
