@@ -905,6 +905,30 @@
         padding: 5px;
     }
 }
+@media screen and (max-width: 3000px) and (min-width: 1025px){
+    #gallery-main{
+        width: 100%;
+        height: 60vh;
+    
+    }
+    .gallery{
+        width: 1500px;
+        display: flex;
+        overflow-x: scroll;
+    }
+    #backbtn,#nextbtn{
+        width: 20px;
+        margin: 10px;
+    }
+    .gallery div{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+        padding: 10px;
+        flex: none;
+    
+}
 /*--Gallery Ends---*/
 /*--FOOTER--*/
 #footer{
@@ -968,6 +992,26 @@ margin-bottom: 20px;
 }
 
 @media screen and (max-width: 300px) and (min-width: 150px)  {
+    #footer{
+        width: 100%;
+        height: 90vh;
+    }
+
+    .footer-left h3{
+        font-size: 15px;
+    }
+
+    .footer-left h1{
+        font-size: 10px;
+        line-height: 20px;
+        
+    }
+
+    .footer-right,.footer-left{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) and (min-width: 301px)  {
     #footer{
         width: 100%;
         height: 90vh;
