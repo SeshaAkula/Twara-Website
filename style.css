@@ -193,7 +193,25 @@
     display: none;
 }
 }
+@media screen and (max-width: 3000px) and (min-width: 1025px){
+    .Logo{
+        width:8vw;
+    }
+    #hero{
+        height: 100vh;
+    }
+    h2{
+        font-size: 6.2vw;
+        line-height: 14vw;
+    }
+    .hero-video-desktop {
+    background-image: url('BG/Homepage-BG_1.gif');
+    background-size: cover;
+    height: 65vw;
+    background-position: center center;
 
+}
+}
 /*---#product---*/
 
 #product{
@@ -354,7 +372,7 @@
 /*--About--*/
 #About-main{
     width: 100%;
-    height: 60vh;
+    height: 50vh;
 }
 
 #About-main .about-title p{
@@ -462,7 +480,7 @@
         margin: 5px;
     }   
     .about{
-        width: 80%;
+        width: 50%;
     }
     .about div{
         width: 300%;
@@ -722,7 +740,7 @@
 
 @media screen and (max-width: 1024px) and (min-width: 601px){
     #support{
-        height: 50vh;
+        height: 60%;
     
     }
     .support-members1 img{
@@ -869,7 +887,24 @@
         padding: 5px;
     }
 }
-
+@media screen and (max-width: 1024px) and (min-width: 601px){
+    #gallery-main{
+        width: 100%;
+        height: 50%;
+    }
+    .gallery{
+        width: 80%;
+    }
+    #backbtn,#nextbtn{
+        width: 20px;
+        margin: 10px;
+    }
+    .gallery div{
+        width:300%;
+        grid-gap: 10px;
+        padding: 5px;
+    }
+}
 /*--Gallery Ends---*/
 /*--FOOTER--*/
 #footer{
