@@ -609,7 +609,12 @@
            }
         
         }
-
+        @media screen and (max-width: 3000px) and (min-width: 1025px)
+        {
+            #Team{
+                height: 140vh;
+             }
+        }
 
 /*--Support---*/
 
