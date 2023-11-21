@@ -134,7 +134,7 @@
         height: 50vh;
     }
     h2{
-            font-size: 12vw;
+            font-size: 8vw;
             line-height: 12vw;
         }
     }
@@ -156,7 +156,7 @@
         height: 50%;
     }
     h2{
-        font-size: 12.2vw;
+        font-size: 8vw;
         line-height: 14vw;
     }
     .hero-video-desktop {
@@ -179,7 +179,7 @@
         height: 50%;
     }
     h2{
-        font-size: 12.2vw;
+        font-size: 7vw;
         line-height: 14vw;
     }
     .hero-video-desktop {
@@ -201,7 +201,7 @@
         height: 100vh;
     }
     h2{
-        font-size: 6.2vw;
+        font-size: 5vw;
         line-height: 14vw;
     }
     .hero-video-desktop {
